@@ -1,5 +1,10 @@
 #!/bin/sh
-#The OPenVpn config file
+#
+#      2012/10/18 created by zijiao 
+#			
+#      USAGE:You must modify the CONF_PATH to your openvpn config PATH.
+#      
+#      E-mail:admin@enjoydiy.com    http://blog.enjoydiy.com http://bbs.enjoydiy.com
 CONF_PATH='/jffs/openvpn/vpn1.ovpn'
 ISRUN=`ps | grep "openvpn --config" | grep -v "grep" | wc -l`
 echo $ISRUN
