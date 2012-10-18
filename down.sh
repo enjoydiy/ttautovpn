@@ -1,4 +1,4 @@
-aroute del -net 1.0.1.0 netmask 255.255.255.0
+route del -net 1.0.1.0 netmask 255.255.255.0
 route del -net 1.0.2.0 netmask 255.255.254.0
 route del -net 1.0.8.0 netmask 255.255.248.0
 route del -net 1.0.32.0 netmask 255.255.224.0
