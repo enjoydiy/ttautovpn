@@ -1,5 +1,7 @@
 #!/bin/sh
-
+#   TT-AUTOVPN
+#   E-mail:admin@enjoydiy.com
+#   http://bbs.enjoydiy.com
 set -x
 export PATH="/bin:/sbin:/usr/sbin:/usr/bin"
 
