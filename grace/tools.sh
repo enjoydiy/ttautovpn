@@ -1,4 +1,11 @@
 #!/bin/sh
+#
+# Author:zijiao E-mail:admin@enjoydiy.com aefskw@gmail.com
+#
+# Web: http://blog.enjoydiy.com http://bbs.enjoydiy.com
+#
+# USAGE: visit web.
+#
 echo "##################################################"
 echo "#        Thanks for using VPN from EnjoyDiy      #"
 echo "#              welecom to visit our websit       #"

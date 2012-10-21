@@ -1,4 +1,10 @@
 #!/bin/sh
+#
+# Author:zijiao E-mail:admin@enjoydiy.com aefskw@gmail.com
+# Web: http://blog.enjoydiy.com http://bbs.enjoydiy.com
+#
+# USAGE: visit web.
+#
 
 #The VPN Server IP
 vpnserv='10.8.0.1'
