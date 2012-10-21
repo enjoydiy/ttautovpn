@@ -13,6 +13,7 @@ function set_pass()
 	if [[ -n "$2" ]] && [[ -n "$3" ]]; then
 		a=$2;
 		b=$3;
+		echo "account:${a}   password:${b}"
 		echo $a > /jffs/openvpn/passwd.txt
 		echo $b >> /jffs/openvpn/passwd.txt
 		echo "OK!"
@@ -89,9 +90,15 @@ function update_route()
 		echo "bad network! update fail!"
 		main
 	else
-		wget http://raw.github.com/enjoydiy/ttautovpn/master/up.sh -O /jffs/up.sh
-		wget http://raw.github.com/enjoydiy/ttautovpn/master/down.sh -O /jffs/down.sh
-		echo "success!"
+		#wget http://raw.github.com/enjoydiy/ttautovpn/master/up.sh -O /jffs/up.sh
+		#wget http://raw.github.com/enjoydiy/ttautovpn/master/down.sh -O /jffs/down.sh
+		wget https://raw.github.com/enjoydiy/ttautovpn/master/grace/routeg/route -O /jffs/openvpn/routeg/route.bak
+		if [ `cat /jffs/openvpn/routeg/route.bak | wc -l` -gt 100 ]; then
+			mv /jffs/openvpn/routeg/route.bak /jffs/openvpn/routeg/route
+			echo "success!"
+		else
+			echo "fail!"
+		fi
 		if [ -n "$1" ]; then
 			exit
 		else
@@ -112,6 +119,19 @@ function set_server()
 		main
 	fi
 }
+function update_tools()
+{
+	wget https://raw.github.com/enjoydiy/ttautovpn/master/grace/tools.sh -O /jffs/openvpn/tools.sh.bak
+	if [ `cat /jffs/openvpn/tools.sh.bak | wc -l` -gt 100 ]; then
+		mv /jffs/openvpn/tools.sh.bak /jffs/openvpn/tools.sh
+		echo "UPDATE OK!"
+	fi
+	if [ -n "$1" ]; then
+		exit
+	else
+		main
+	fi
+}
 function main()
 {
 	echo "The functions lists:"
@@ -123,42 +143,15 @@ function main()
 	echo "5.Start the openvpn daemon"
 	echo "6.Update routes from network"
 	echo "7.Set openvpn server address"
-	echo "8.exit and enjoy your life"
+	echo "8.Update the tools"
+	echo "9.exit and enjoy your life"
 	echo "----------------------------------------------"
-	read -p "Please type a number: " fun
+	if [ -z $1 ]; then
+		read -p "Please type a number: " fun
+	else
+		fun=$1
+	fi
 	case "$fun" in
-		1)
-			set_pass
-		;;
-		2)
-			t_vpn
-		;;
-		3)
-			t_net
-		;;
-		4)
-			clean_route
-		;;
-		5)
-			sh /jffs/openvpn/startopenvpn.sh
-		;;
-		6)
-			update_route
-		;;
-		7)
-			set_server
-		;;
-		8)
-			echo "Good Bye!"
-			exit
-		;;
-		*)
-			echo "The wrong num!"
-			main
-	esac
-}
-if [ $1 ]; then
-	case "$1" in
 		1)
 			set_pass $*
 		;;
@@ -172,7 +165,7 @@ if [ $1 ]; then
 			clean_route $*
 		;;
 		5)
-			sh /jffs/openvpn/startopenvpn.sh
+			sh /jffs/openvpn/startopenvpn.sh $*
 		;;
 		6)
 			update_route $*
@@ -180,11 +173,16 @@ if [ $1 ]; then
 		7)
 			set_server $*
 		;;
+		8)
+			update_tools $*
+		;;
+		9)
+			echo "Good Bye!"
+			exit
+		;;
 		*)
 			echo "The wrong num!"
 			main
 	esac
-
-else
-	main
-fi
+}
+main $*
