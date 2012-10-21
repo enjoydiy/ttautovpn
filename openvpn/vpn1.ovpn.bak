@@ -1,0 +1,24 @@
+up 'iptables -A POSTROUTING -t nat -o tun0 -j MASQUERADE; /jffs/openvpn/routeg/vpnup.sh openvpn'
+down 'iptables -D POSTROUTING -t nat -o tun0 -j MASQUERADE; /jffs/openvpn/routeg/vpndown.sh openvpn'
+script-security 3 system
+client
+dev tun
+proto tcp
+remote enjoydiy.com 53
+remote-random
+resolv-retry infinite
+nobind
+persist-key
+persist-tun
+ca /jffs/openvpn/ca.crt
+auth-user-pass /jffs/openvpn/passwd.txt
+ns-cert-type server
+#tls-auth /jffs/openvpn/ta.key 1
+mute 20
+comp-lzo 
+verb 3 
+#ping 20
+#ping-restart 60
+#route 0.0.0.0 0.0.0.0
+#redirect-gateway def1 
+route-nopull
