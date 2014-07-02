@@ -1,4 +1,4 @@
-#2014/07/01 created by http://bbs.enjoydiy.com
+#2014/07/02 created by http://bbs.enjoydiy.com
 #QQ:58076972 E-mail:admin@enjoydiy.com
 route add -net 1.0.1.0 netmask 255.255.255.0 gw $OLDGW
 route add -net 1.0.2.0 netmask 255.255.254.0 gw $OLDGW
@@ -324,7 +324,8 @@ route add -net 59.74.0.0 netmask 255.254.0.0 gw $OLDGW
 route add -net 59.76.0.0 netmask 255.255.0.0 gw $OLDGW
 route add -net 59.77.0.0 netmask 255.255.0.0 gw $OLDGW
 route add -net 59.78.0.0 netmask 255.254.0.0 gw $OLDGW
-route add -net 59.80.0.0 netmask 255.252.0.0 gw $OLDGW
+route add -net 59.80.0.0 netmask 255.254.0.0 gw $OLDGW
+route add -net 59.82.0.0 netmask 255.254.0.0 gw $OLDGW
 route add -net 59.107.0.0 netmask 255.255.128.0 gw $OLDGW
 route add -net 59.107.128.0 netmask 255.255.128.0 gw $OLDGW
 route add -net 59.108.0.0 netmask 255.254.0.0 gw $OLDGW
@@ -845,6 +846,7 @@ route add -net 103.234.124.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 103.234.128.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 103.234.172.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 103.234.180.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 103.235.16.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 103.240.16.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 103.240.36.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 103.240.72.0 netmask 255.255.252.0 gw $OLDGW
@@ -1002,7 +1004,8 @@ route add -net 106.48.0.0 netmask 255.254.0.0 gw $OLDGW
 route add -net 106.50.0.0 netmask 255.255.0.0 gw $OLDGW
 route add -net 106.52.0.0 netmask 255.252.0.0 gw $OLDGW
 route add -net 106.56.0.0 netmask 255.248.0.0 gw $OLDGW
-route add -net 106.74.0.0 netmask 255.254.0.0 gw $OLDGW
+route add -net 106.74.0.0 netmask 255.255.0.0 gw $OLDGW
+route add -net 106.75.0.0 netmask 255.255.0.0 gw $OLDGW
 route add -net 106.80.0.0 netmask 255.240.0.0 gw $OLDGW
 route add -net 106.108.0.0 netmask 255.252.0.0 gw $OLDGW
 route add -net 106.112.0.0 netmask 255.248.0.0 gw $OLDGW
@@ -1441,7 +1444,9 @@ route add -net 120.32.0.0 netmask 255.248.0.0 gw $OLDGW
 route add -net 120.40.0.0 netmask 255.252.0.0 gw $OLDGW
 route add -net 120.44.0.0 netmask 255.252.0.0 gw $OLDGW
 route add -net 120.48.0.0 netmask 255.254.0.0 gw $OLDGW
-route add -net 120.52.0.0 netmask 255.252.0.0 gw $OLDGW
+route add -net 120.52.0.0 netmask 255.255.0.0 gw $OLDGW
+route add -net 120.53.0.0 netmask 255.255.0.0 gw $OLDGW
+route add -net 120.54.0.0 netmask 255.254.0.0 gw $OLDGW
 route add -net 120.64.0.0 netmask 255.252.0.0 gw $OLDGW
 route add -net 120.68.0.0 netmask 255.252.0.0 gw $OLDGW
 route add -net 120.72.32.0 netmask 255.255.224.0 gw $OLDGW
@@ -1755,8 +1760,13 @@ route add -net 150.121.0.0 netmask 255.255.0.0 gw $OLDGW
 route add -net 150.122.0.0 netmask 255.255.0.0 gw $OLDGW
 route add -net 150.129.152.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 150.129.192.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 150.129.216.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 150.129.252.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 150.138.0.0 netmask 255.254.0.0 gw $OLDGW
 route add -net 150.223.0.0 netmask 255.255.0.0 gw $OLDGW
+route add -net 150.242.0.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 150.242.4.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 150.242.8.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 150.255.0.0 netmask 255.255.0.0 gw $OLDGW
 route add -net 153.0.0.0 netmask 255.255.0.0 gw $OLDGW
 route add -net 153.3.0.0 netmask 255.255.0.0 gw $OLDGW
