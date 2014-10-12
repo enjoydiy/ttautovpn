@@ -1,4 +1,4 @@
-#2014/10/11 created by http://bbs.enjoydiy.com
+#2014/10/12 created by http://bbs.enjoydiy.com
 #QQ:58076972 E-mail:admin@enjoydiy.com
 route add -net 1.0.1.0 netmask 255.255.255.0 gw $OLDGW
 route add -net 1.0.2.0 netmask 255.255.254.0 gw $OLDGW
@@ -656,6 +656,13 @@ route add -net 43.249.24.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 43.249.120.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 43.249.132.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 43.249.136.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 43.249.144.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 43.249.148.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 43.249.152.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 43.249.156.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 43.249.160.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 43.249.164.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 43.249.168.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 43.252.40.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 43.252.48.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 43.252.56.0 netmask 255.255.252.0 gw $OLDGW
@@ -1567,6 +1574,14 @@ route add -net 103.40.112.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 103.40.192.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 103.40.212.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 103.40.220.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 103.40.228.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 103.40.232.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 103.40.236.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 103.40.240.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 103.40.244.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 103.40.248.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 103.40.252.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 103.41.0.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 103.224.40.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 103.224.44.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 103.224.60.0 netmask 255.255.252.0 gw $OLDGW
