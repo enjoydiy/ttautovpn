@@ -1,4 +1,4 @@
-#2015/02/03 created by http://bbs.enjoydiy.com
+#2015/02/04 created by http://bbs.enjoydiy.com
 #QQ:58076972 E-mail:admin@enjoydiy.com
 route del -net 1.0.1.0 netmask 255.255.255.0
 route del -net 1.0.2.0 netmask 255.255.254.0
@@ -423,6 +423,8 @@ route del -net 43.229.232.0 netmask 255.255.252.0
 route del -net 43.229.236.0 netmask 255.255.252.0
 route del -net 43.230.20.0 netmask 255.255.252.0
 route del -net 43.230.32.0 netmask 255.255.252.0
+route del -net 43.230.68.0 netmask 255.255.252.0
+route del -net 43.230.72.0 netmask 255.255.252.0
 route del -net 43.236.0.0 netmask 255.255.252.0
 route del -net 43.236.4.0 netmask 255.255.252.0
 route del -net 43.236.8.0 netmask 255.255.252.0
@@ -2006,6 +2008,9 @@ route del -net 103.49.12.0 netmask 255.255.252.0
 route del -net 103.49.20.0 netmask 255.255.252.0
 route del -net 103.49.72.0 netmask 255.255.252.0
 route del -net 103.49.76.0 netmask 255.255.252.0
+route del -net 103.49.92.0 netmask 255.255.252.0
+route del -net 103.49.96.0 netmask 255.255.252.0
+route del -net 103.49.108.0 netmask 255.255.252.0
 route del -net 103.224.40.0 netmask 255.255.252.0
 route del -net 103.224.44.0 netmask 255.255.252.0
 route del -net 103.224.60.0 netmask 255.255.252.0
@@ -2447,6 +2452,7 @@ route del -net 111.186.0.0 netmask 255.254.0.0
 route del -net 111.192.0.0 netmask 255.240.0.0
 route del -net 111.208.0.0 netmask 255.252.0.0
 route del -net 111.212.0.0 netmask 255.252.0.0
+route del -net 111.221.28.0 netmask 255.255.255.0
 route del -net 111.221.128.0 netmask 255.255.128.0
 route del -net 111.222.0.0 netmask 255.255.0.0
 route del -net 111.223.240.0 netmask 255.255.252.0
@@ -3581,6 +3587,7 @@ route del -net 202.86.249.0 netmask 255.255.255.0
 route del -net 202.86.252.0 netmask 255.255.252.0
 route del -net 202.87.80.0 netmask 255.255.240.0
 route del -net 202.89.8.0 netmask 255.255.248.0
+route del -net 202.89.232.0 netmask 255.255.248.0
 route del -net 202.90.0.0 netmask 255.255.252.0
 route del -net 202.90.112.0 netmask 255.255.240.0
 route del -net 202.90.196.0 netmask 255.255.255.0
