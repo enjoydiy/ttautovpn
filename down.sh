@@ -1,4 +1,4 @@
-#2015/07/06 created by http://bbs.enjoydiy.com
+#2015/07/07 created by http://bbs.enjoydiy.com
 #QQ:58076972 E-mail:admin@enjoydiy.com
 route del -net 1.0.1.0 netmask 255.255.255.0
 route del -net 1.0.2.0 netmask 255.255.254.0
@@ -1109,6 +1109,22 @@ route del -net 45.121.96.0 netmask 255.255.252.0
 route del -net 45.121.104.0 netmask 255.255.252.0
 route del -net 45.121.172.0 netmask 255.255.252.0
 route del -net 45.121.176.0 netmask 255.255.252.0
+route del -net 45.121.212.0 netmask 255.255.252.0
+route del -net 45.121.240.0 netmask 255.255.252.0
+route del -net 45.121.244.0 netmask 255.255.252.0
+route del -net 45.121.248.0 netmask 255.255.252.0
+route del -net 45.121.252.0 netmask 255.255.252.0
+route del -net 45.122.0.0 netmask 255.255.252.0
+route del -net 45.122.4.0 netmask 255.255.252.0
+route del -net 45.122.8.0 netmask 255.255.252.0
+route del -net 45.122.12.0 netmask 255.255.252.0
+route del -net 45.122.16.0 netmask 255.255.252.0
+route del -net 45.122.20.0 netmask 255.255.252.0
+route del -net 45.122.24.0 netmask 255.255.252.0
+route del -net 45.122.28.0 netmask 255.255.252.0
+route del -net 45.122.32.0 netmask 255.255.252.0
+route del -net 45.122.36.0 netmask 255.255.252.0
+route del -net 45.122.40.0 netmask 255.255.252.0
 route del -net 47.92.0.0 netmask 255.252.0.0
 route del -net 47.96.0.0 netmask 255.224.0.0
 route del -net 49.4.0.0 netmask 255.252.0.0
@@ -2301,6 +2317,22 @@ route del -net 103.61.176.0 netmask 255.255.252.0
 route del -net 103.61.184.0 netmask 255.255.252.0
 route del -net 103.61.188.0 netmask 255.255.252.0
 route del -net 103.62.24.0 netmask 255.255.252.0
+route del -net 103.62.52.0 netmask 255.255.252.0
+route del -net 103.62.72.0 netmask 255.255.252.0
+route del -net 103.62.76.0 netmask 255.255.252.0
+route del -net 103.62.80.0 netmask 255.255.252.0
+route del -net 103.62.84.0 netmask 255.255.252.0
+route del -net 103.62.88.0 netmask 255.255.252.0
+route del -net 103.62.96.0 netmask 255.255.252.0
+route del -net 103.62.100.0 netmask 255.255.252.0
+route del -net 103.62.104.0 netmask 255.255.252.0
+route del -net 103.62.108.0 netmask 255.255.252.0
+route del -net 103.62.112.0 netmask 255.255.252.0
+route del -net 103.62.116.0 netmask 255.255.252.0
+route del -net 103.62.120.0 netmask 255.255.252.0
+route del -net 103.62.124.0 netmask 255.255.252.0
+route del -net 103.62.128.0 netmask 255.255.252.0
+route del -net 103.62.132.0 netmask 255.255.252.0
 route del -net 103.224.40.0 netmask 255.255.252.0
 route del -net 103.224.44.0 netmask 255.255.252.0
 route del -net 103.224.60.0 netmask 255.255.252.0
