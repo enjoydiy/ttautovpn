@@ -1,4 +1,4 @@
-#2015/08/17 created by http://bbs.enjoydiy.com
+#2015/08/18 created by http://bbs.enjoydiy.com
 #QQ:58076972 E-mail:admin@enjoydiy.com
 route add -net 1.0.1.0 netmask 255.255.255.0 gw $OLDGW
 route add -net 1.0.2.0 netmask 255.255.254.0 gw $OLDGW
@@ -672,6 +672,7 @@ route add -net 43.239.48.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 43.239.116.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 43.239.120.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 43.239.172.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 43.239.176.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 43.240.0.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 43.240.48.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 43.240.56.0 netmask 255.255.252.0 gw $OLDGW
@@ -1959,6 +1960,7 @@ route add -net 103.35.40.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 103.35.44.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 103.35.48.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 103.35.104.0 netmask 255.255.252.0 gw $OLDGW
+route add -net 103.35.116.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 103.36.20.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 103.36.28.0 netmask 255.255.252.0 gw $OLDGW
 route add -net 103.36.36.0 netmask 255.255.252.0 gw $OLDGW
