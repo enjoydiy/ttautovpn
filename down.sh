@@ -1,4 +1,4 @@
-#2016/06/14 created by http://bbs.enjoydiy.com
+#2016/06/15 created by http://bbs.enjoydiy.com
 #QQ:58076972 E-mail:admin@enjoydiy.com
 route del -net 1.0.1.0 netmask 255.255.255.0
 route del -net 1.0.2.0 netmask 255.255.254.0
@@ -79,6 +79,7 @@ route del -net 14.130.0.0 netmask 255.254.0.0
 route del -net 14.134.0.0 netmask 255.254.0.0
 route del -net 14.144.0.0 netmask 255.240.0.0
 route del -net 14.192.4.0 netmask 255.255.252.0
+route del -net 14.192.56.0 netmask 255.255.252.0
 route del -net 14.192.60.0 netmask 255.255.252.0
 route del -net 14.192.76.0 netmask 255.255.252.0
 route del -net 14.196.0.0 netmask 255.254.0.0
@@ -3031,6 +3032,8 @@ route del -net 103.65.160.0 netmask 255.255.252.0
 route del -net 103.65.164.0 netmask 255.255.252.0
 route del -net 103.65.168.0 netmask 255.255.252.0
 route del -net 103.65.172.0 netmask 255.255.252.0
+route del -net 103.66.32.0 netmask 255.255.252.0
+route del -net 103.66.40.0 netmask 255.255.252.0
 route del -net 103.192.0.0 netmask 255.255.252.0
 route del -net 103.192.4.0 netmask 255.255.252.0
 route del -net 103.192.8.0 netmask 255.255.252.0
